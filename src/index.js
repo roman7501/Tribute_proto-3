@@ -1,1 +1,3 @@
-console.log("hello");
+import Lines from "./js/lines";
+
+new Lines();

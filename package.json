@@ -9,7 +9,9 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "gsap": "file:gsap-bonus.tgz"
+  },
   "devDependencies": {
     "parcel-bundler": "^1.12.3",
     "sass": "^1.32.8"
