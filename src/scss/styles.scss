@@ -1,3 +1,67 @@
 body {
   background: salmon;
 }
+
+.lines {
+  width: 100%;
+  margin-top: 100vh;
+  position: relative;
+  // border: 1px solid red;
+
+  svg {
+    height: auto;
+  }
+
+  p:nth-child(1) {
+    text-align: right;
+  }
+
+  .moon__container {
+    margin-top: 20px;
+    margin-left: 50px;
+    text-align-last: right;
+    img {
+      margin-top: 40vh;
+      margin-left: 30vw;
+      width: 40px;
+    }
+  }
+  .path__wrapper {
+    // border: 1px solid salmon;
+    z-index: -1;
+    position: absolute;
+  }
+  .text-1 {
+    margin-top: 50vh;
+    margin-left: 10vw;
+  }
+  .text-2 {
+    margin-top: 55vh;
+    margin-left: 10vw;
+  }
+
+  .text-3 {
+    margin-top: 60vh;
+    margin-left: 40vw;
+  }
+
+  .text-4 {
+    margin-top: 40vh;
+    margin-left: 24vw;
+  }
+
+  .text-5 {
+    margin-top: 35vh;
+    margin-left: 50vw;
+  }
+
+  line {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 1;
+  }
+}
+
+.text-beau {
+  color: #f7f7f7;
+}

@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.html",
   "scripts": {
+    "start": "parcel index.html",
     "build": "parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "gsap": "file:gsap-bonus.tgz"
+    "gsap": "file:gsap-bonus.tgz",
+    "locomotive-scroll": "^4.1.0"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.3",
